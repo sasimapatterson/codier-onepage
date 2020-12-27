@@ -1,0 +1,65 @@
+body {
+    margin: 0px;
+    background-image: url(../image/holly-macaron.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    padding-bottom: 2em;
+}
+
+html {
+    width: 90%;
+    height: 100%;
+    font-size: 1em;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    margin-left: 1em;
+    
+}
+
+header {
+    width: 100%;
+}
+
+header h1 {
+    text-align: center;
+    border-bottom: 3px solid #dda5b3;
+    margin-top: 1em;
+    padding-bottom: 1em;
+}
+
+nav ul {
+   list-style: none;
+   line-height: 2.5em;
+   padding-left: 0px;
+   text-align: center;
+   border-bottom: 3px solid #dda5b3;
+   padding-bottom: 1em;
+}
+
+nav ul li {
+    font-size: 1.5em;
+    color: #147238;
+    justify-content: space-between;   
+}
+
+section {
+    margin-left: 1em;
+    margin-top: 3em;
+    font-size: 1em;
+    color:#E5E7E9;
+    line-height: 2em;
+
+}
+
+footer {
+    background-color: lightpink;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 2em;
+    padding-top: 1em;
+}
