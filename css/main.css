@@ -46,6 +46,7 @@ nav ul {
    border-bottom: 3px solid #dda5b3;
    padding-bottom: 1em;
    background-color: lightblue;
+   
 }
 
 nav ul li {
@@ -82,14 +83,14 @@ html {
 }
 
 header h1 {
-    
-    
     text-align: left;
     border-bottom: none;
+    padding-bottom: none;
 }
 
 nav ul {
-    display: flex;
+   
+    line-height: none;
 }
 
 nav ul li {
@@ -111,16 +112,13 @@ html {
     width: 100%;
     height: auto;
     margin-left: 1em;
-    display: flex;
-   
+    
     background-color: yellow;
 }
 
 header {
     width: 100%;
     display: flex;
-    justify-content:space-between;
-    align-items: center;
     
     background-color: pink;
 }
@@ -128,26 +126,29 @@ header {
 header h1 {
     width: 20%;
     border-bottom: none;
-    padding-bottom: none;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 
 }
 
 header nav {
-   
-    
+    width: 30%;
+    display: flex;
     
 }
 
 nav ul {
-    width: 30%;
+    width: 100%;
     list-style: none;
-    line-height: 2.5em;
-    
-    text-align: center;
+    line-height: none;
+    text-align: left;
     border-bottom: 3px solid #dda5b3;
-    padding-bottom: 1em;
-    justify-content: space-between;
-    align-self: flex-start;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    
+    
     background-color: lightblue;
 }
  
