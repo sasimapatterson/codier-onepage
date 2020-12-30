@@ -1,10 +1,12 @@
+
+
 body {
     margin: 0px;
     background-image: url(../image/holly-macaron.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: auto;
-    padding-bottom: 2em;
+  
 }
 
 html {
@@ -14,21 +16,26 @@ html {
 }
 
 .container {
-    width: 100%;
+   
+    width: 90%;
     height: auto;
     margin-left: 1em;
-    
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
+
+    background-color: yellow;
 }
 
-header {
-    width: 100%;
-}
+
 
 header h1 {
     text-align: center;
     border-bottom: 3px solid #dda5b3;
     margin-top: 1em;
     padding-bottom: 1em;
+    background-color: lightgray;
 }
 
 nav ul {
@@ -38,12 +45,13 @@ nav ul {
    text-align: center;
    border-bottom: 3px solid #dda5b3;
    padding-bottom: 1em;
+   background-color: lightblue;
 }
 
 nav ul li {
     font-size: 1.5em;
     color: #147238;
-    justify-content: space-between;   
+       
 }
 
 section {
@@ -63,3 +71,91 @@ footer {
     height: 2em;
     padding-top: 1em;
 }
+
+/* ---------- Media Queries ---------------*/
+
+/* ---------- Tablets ------------------ */
+@media all and (min-width: 768px) {
+
+html {
+    width: 100%;
+}
+
+header h1 {
+    
+    
+    text-align: left;
+    border-bottom: none;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    justify-content: space-between;
+
+}
+
+}
+
+
+/*--- Desktop ---*/
+@media all and (min-width: 1200px) {
+
+html {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    margin-left: 1em;
+    display: flex;
+   
+    background-color: yellow;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+    background-color: pink;
+}
+
+header h1 {
+    width: 20%;
+    border-bottom: none;
+    padding-bottom: none;
+
+}
+
+header nav {
+   
+    
+    
+}
+
+nav ul {
+    width: 30%;
+    list-style: none;
+    line-height: 2.5em;
+    
+    text-align: center;
+    border-bottom: 3px solid #dda5b3;
+    padding-bottom: 1em;
+    justify-content: space-between;
+    align-self: flex-start;
+    background-color: lightblue;
+}
+ 
+nav ul li {
+     font-size: 1.5em;
+     color: #147238;
+      
+ 
+} 
+}
+
